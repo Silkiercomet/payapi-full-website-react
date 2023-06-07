@@ -4,7 +4,6 @@ import {About, Home, Pricing, Contact} from "./pages"
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import NotFound from './components/NotFound';
-import './App.css'
 
 function App() {
 
