@@ -63,3 +63,22 @@ header, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/* schedule btn component */
+
+.btn{
+  padding: 12px 25px;
+  color: white; 
+  background-color: var(--pink);
+  border-radius: 23px;
+  border: 1px solid transparent;
+
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.btn:hover{
+  color: var(--pink);
+  border-color: var(--pink);
+  background-color: transparent;
+}
+/* schedule btn component */
