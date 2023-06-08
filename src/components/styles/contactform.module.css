@@ -1,0 +1,35 @@
+.form__container{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    position: relative;
+}
+.form__container > *{
+    width: 100%;
+}
+.form__container input{
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 12px 25px;
+    box-shadow:
+    0.6px 2.8px 2.2px rgba(0, 0, 0, 0.022),
+    1.3px 6.7px 5.3px rgba(0, 0, 0, 0.032),
+    2.5px 12.5px 10px rgba(0, 0, 0, 0.04),
+    4.5px 22.3px 17.9px rgba(0, 0, 0, 0.048),
+    8.4px 41.8px 33.4px rgba(0, 0, 0, 0.058),
+    20px 100px 80px rgba(0, 0, 0, 0.08)
+  ;
+}
+@media screen and (min-width:720px) {
+    .form__container{
+        max-width: 500px;
+        margin-inline: auto;
+    }
+    .btn__form{
+        position: absolute;
+        max-width: 200px;
+        right: 0;
+    }
+
+}
