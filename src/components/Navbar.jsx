@@ -23,8 +23,8 @@ const Navbar = () => {
           <img src={Logo} alt="payapi logo" />
         </figure>
         <ul className={style.navbar__left_desktop}>
-          <li onClick={() => handleNavigation(2)}>About</li>
           <li onClick={() => handleNavigation(3)}>Pricing</li>
+          <li onClick={() => handleNavigation(2)}>About</li>
           <li onClick={() => handleNavigation(4)}>Contact</li>
         </ul>
       </div>

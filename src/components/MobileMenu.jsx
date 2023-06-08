@@ -18,8 +18,8 @@ const MobileMenu = ({isMenuOpen, toggleMenu = f => f, handleNavigation = f => f}
 
             <ul>
               <li onClick={() => handleNavigation(1)}>Home</li>
-              <li onClick={() => handleNavigation(2)}>About</li>
               <li onClick={() => handleNavigation(3)}>Pricing</li>
+              <li onClick={() => handleNavigation(2)}>About</li>
               <li onClick={() => handleNavigation(4)}>Contact</li>
               <li><button>Schedule a Demo</button></li>
             </ul>

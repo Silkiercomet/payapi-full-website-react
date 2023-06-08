@@ -45,5 +45,6 @@
     .navbar{
         max-width: 1020px;
         margin-inline: auto;
+        padding-inline: 0;
     }
 }
