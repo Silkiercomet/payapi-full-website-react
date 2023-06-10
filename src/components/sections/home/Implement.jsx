@@ -1,8 +1,10 @@
-import React from 'react'
+import style from "../../styles/implement.module.css";
 
 const Implement = () => {
   return (
-    <div>Implement</div>
+    <section className={style.implement}>
+
+    </section>
   )
 }
 
