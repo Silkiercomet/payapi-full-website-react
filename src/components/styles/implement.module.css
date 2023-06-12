@@ -1,0 +1,51 @@
+.implement{
+    display: grid;
+    gap: 40px;
+    padding: 40px;
+    text-align: center;
+    place-items: center;
+}
+.implement__container2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+.implement__container2 div p, .implement__container1 div p{
+    margin-top: 25px;
+    max-width: 573px;
+}
+.implement__container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+@media screen and (min-width:740px) {
+    .implement{
+        text-align: left;
+    }
+    .implement__container1{
+        flex-direction: row;
+     }
+
+    .implement__container2{
+        flex-direction: row;
+
+    }
+    .implement__container1 > *{
+       flex: 1;
+    }
+
+    .implement__container2 > *{
+    flex: 1;
+    }
+}
+@media screen and (min-width:1020px) {
+    .implement{
+        max-width: 1120px;
+        margin-inline: auto;
+    }
+}
