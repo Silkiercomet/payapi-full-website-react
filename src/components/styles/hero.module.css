@@ -15,6 +15,9 @@
     display: grid;
     gap: 15px;
 }
+.hero__content form{
+    margin-inline: auto;
+}
 .hero__content p a {
     color: var(--lightgray);
     font-weight: 700;
