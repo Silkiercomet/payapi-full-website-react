@@ -16,7 +16,7 @@ const ContactForm = () => {
         navigate("/pricing")
       };
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)} className={style.form}>
        {errors.email && <span className='error'>Invalid email</span>}
        <div className={style.form__container}>
         <input type="text" placeholder='Enter Email Address' {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />

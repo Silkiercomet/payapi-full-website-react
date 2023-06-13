@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     margin-block: 40px;
-    padding-inline: 24px;
+    padding-inline: 30px;
 }
 .navbar__left figure, .navbar__right_mobile{
     cursor: pointer;
@@ -45,6 +45,11 @@
     .navbar{
         max-width: 1120px;
         margin-inline: auto;
+
+    }
+}
+@media screen and (min-width:1120px) {
+    .navbar{
         padding-inline: 0;
     }
 }
