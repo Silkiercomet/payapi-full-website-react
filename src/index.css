@@ -54,7 +54,7 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
-header, h1, h2, h3, h4, h5, h6 {
+header, h1, h2, h3, h4, h5 {
   font-family: "DM Serif Display",serif;
   text-align: center;
   color: var(--gray);
@@ -72,6 +72,38 @@ p{
   isolation: isolate;
 }
 
+/* pricing */
+
+.pricing{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+}
+.price{
+  max-width: 1120px;
+  margin-inline: auto;
+}
+.price h1{
+  margin-block: 25px;
+}
+
+/* about */
+.about{
+  padding-top: 35px;
+}
+.about h1{
+  max-width: 900px;
+  margin-inline: auto;
+  word-break:keep-all;
+  margin-block: 45px;
+}
+.about__bg{
+  background-image: url(./assets/about/desktop/image-team-members.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+  margin-block: 30px;
+}
 /* schedule btn component */
 
 .btn{
@@ -96,15 +128,20 @@ p{
 /* schedule btn component */
 
 @media screen and (min-width:720px) {
-  header, h1, h2, h3, h4, h5, h6 {
+  header, h1, h2, h3, h4, h5 {
     font-size: 3.5rem;
     line-height: 1.2;
   }
 }
 @media screen and (min-width:1020px) {
-  header, h1, h2, h3, h4, h5, h6 {
+  header, h1, h2, h3, h4, h5 {
     text-align: left;
     font-size: 3.8rem;
     line-height: 1.2;
+  }
+  .about__bg{
+    background-size: cover;
+    margin-block: 40px;
+    min-height: 400px;
   }
 }
