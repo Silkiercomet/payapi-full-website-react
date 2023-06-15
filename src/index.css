@@ -85,6 +85,25 @@ p{
 .price h1{
   margin-block: 25px;
 }
+
+/* about */
+.about{
+  padding-top: 35px;
+}
+.about h1{
+  max-width: 900px;
+  margin-inline: auto;
+  word-break:keep-all;
+  margin-block: 45px;
+}
+.about__bg{
+  background-image: url(./assets/about/desktop/image-team-members.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+  margin-block: 30px;
+}
 /* schedule btn component */
 
 .btn{
@@ -119,5 +138,10 @@ p{
     text-align: left;
     font-size: 3.8rem;
     line-height: 1.2;
+  }
+  .about__bg{
+    background-size: cover;
+    margin-block: 40px;
+    min-height: 400px;
   }
 }
