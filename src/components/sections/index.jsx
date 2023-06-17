@@ -6,3 +6,5 @@ export {default as Perks} from "./home/Perks"
 export {default as GridAbout} from "./about/GridAbout"
 export {default as Details} from "./about/Details"
 export {default as FigureBg} from "./about/FigureBg"
+
+export {default as InputHandler} from "./contact/InputHandler"

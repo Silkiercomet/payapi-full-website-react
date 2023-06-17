@@ -1,5 +1,6 @@
 import style from './styles/mobileMenu.module.css'; // CSS file for styling
 import  Close  from "../assets/shared/mobile/close.svg";
+import ScheduleBtn from './ScheduleBtn';
 
 const MobileMenu = ({isMenuOpen, toggleMenu = f => f, handleNavigation = f => f}) => {
 
@@ -21,7 +22,7 @@ const MobileMenu = ({isMenuOpen, toggleMenu = f => f, handleNavigation = f => f}
               <li onClick={() => handleNavigation(3)}>Pricing</li>
               <li onClick={() => handleNavigation(2)}>About</li>
               <li onClick={() => handleNavigation(4)}>Contact</li>
-              <li><button>Schedule a Demo</button></li>
+              <li><ScheduleBtn /></li>
             </ul>
           </div>
         </div>
